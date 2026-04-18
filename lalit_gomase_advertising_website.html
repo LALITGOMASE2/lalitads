@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lalit Gomase - Online Advertising</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #f6f9fc, #e9f0ff);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007BFF, #00C6FF);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      padding: 30px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      color: #007BFF;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 15px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #00C6FF;
+    }
+
+    .contact {
+      background: linear-gradient(135deg, #007BFF, #00C6FF);
+      color: white;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: white;
+      color: #007BFF;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #f0f0f0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #aaa;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lalit Gomase</h1>
+  <p>Professional Online Advertising & Digital Marketing</p>
+  <a href="tel:8600812845" class="btn">Call Now</a>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card">
+      <h2>About Us</h2>
+      <p>We help businesses grow online with powerful advertising strategies, creative campaigns, and result-driven digital marketing solutions.</p>
+    </div>
+
+    <div class="card">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Social Media Advertising</li>
+        <li>Google Ads Campaigns</li>
+        <li>Brand Promotion</li>
+        <li>SEO & Digital Strategy</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>Affordable Pricing</li>
+        <li>Fast Results</li>
+        <li>Experienced Strategy</li>
+        <li>Customer Support</li>
+      </ul>
+    </div>
+
+    <div class="card contact">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> 8600812845</p>
+      <p><strong>Email:</strong> gomaselalit6@gmail.com</p>
+      <a href="mailto:gomaselalit6@gmail.com" class="btn">Send Email</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Lalit Gomase Advertising | Designed for Growth 🚀</p>
+</footer>
+
+</body>
+</html>
